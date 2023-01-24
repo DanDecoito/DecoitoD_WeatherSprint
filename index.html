@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+
+
+<body>
+    <div class="container topDiv">
+        <div class="container-fluid row d-flex justify-content-space-between">
+            <div class=" col-8 mainContent">
+                <div class="mainContentCanvas">
+                    <div class="row rowOne">
+                    <div class="col-3 ">
+                        <img src="./Assets/OpenWeather Partly Cloudy.png" alt="" class="mainIcon">
+                    </div>
+                    <div class="col-5">
+                        <p class="dateText">Jan 23 11:48am</p>
+                        <p class="locationText">Stockton, Ca</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="precipText">Precipitation 100%</p>
+                        <p class="humiText">Humidity 100%</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-2 tempNum">55°</div>
+                    <div class="col-3">
+                        <P class="infoText">Moderate Rain</P>
+                        <P class="infoText">Feels Like 56°</P>
+                        <P class="infoText">Sunrise 6:22am</P>
+                        <P class="infoText">Sunset 5:42pm</P>
+                        <P class="infoText">Clouds 100%</P>
+                    </div>
+                    
+                    <div class="col-4">
+                        <p class="infoTextR">Rain Volume Per Hour 3.16L</p>
+                        <p class="infoTextR">Temperature Min 48°</p>
+                        <p class="infoTextR">Temperature Max 57°</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="lineSection">__________________________________________________________________________________________________</p>
+                </div>
+                <div class="row hourRowMargin">
+                    <div class="col-2">
+                        <p class="hourText">1:00pm</p>   
+                            <img src="./Assets/OpenWeather Partly Cloudy.png" alt="" class="hoursIcon">
+                        <p class="precHourText">48°</p>
+                    </div>
+                    <div class="col-2">
+                        <p class="hourText">1:00pm</p>   
+                            <img src="./Assets/OpenWeather Partly Cloudy.png" alt="" class="hoursIcon">
+                        <p class="precHourText">48°</p>
+                    </div>
+                    <div class="col-2">
+                        <p class="hourText">1:00pm</p>   
+                        <img src="./Assets/OpenWeather Partly Cloudy.png" alt="" class="hoursIcon">
+                    <p class="precHourText">48°</p>
+                    </div>
+                    <div class="col-2">
+                        <p class="hourText">1:00pm</p>   
+                        <img src="./Assets/OpenWeather Partly Cloudy.png" alt="" class="hoursIcon">
+                    <p class="precHourText">48°</p>
+                    </div>
+                    <div class="col-2">
+                        <p class="hourText">1:00pm</p>   
+                            <img src="./Assets/OpenWeather Partly Cloudy.png" alt="" class="hoursIcon">
+                        <p class="precHourText">48°</p>
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+            <div class="col-4 favContent">
+                <div class="row searchArea">
+                    <div class="col-8">
+                        <input type="text" class="form-control searchField" placeholder="Enter city:">
+                        <p class="favWord">Favorites</p>
+                    </div>
+                    <div class="col-4">
+                        <button class="searchButton">
+                            <img src="./Assets/Search Button.png" alt="">
+                        </button>
+                        
+                    </div>
+
+                </div>
+                <div class="row favBoxes">
+                    <p class="favsCity">Modesto, Ca</p>
+                    <div class="row">
+                        <div class="col-1"></div>
+                        <div class="col-2">
+                            <p class="favTemps">56°</p>
+                        </div>
+                        <div class="col-2">
+                            <p class="favTempsMin">48°</p>
+                        </div>
+                            <img src="./Assets/OpenWeather Partly Cloudy.png" alt="" class="favIcons">
+                    </div>
+                </div>
+                <div class="row favBoxes">
+                    <p class="favsCity">Lodi, Ca</p>
+                    <div class="row">
+                        <div class="col-1"></div>
+                        <div class="col-2">
+                            <p class="favTemps">56°</p>
+                        </div>
+                        <div class="col-2">
+                            <p class="favTempsMin">48°</p>
+                        </div>
+                            <img src="./Assets/OpenWeather Partly Cloudy.png" alt="" class="favIcons">
+                    </div>
+                </div>
+                <div class="row favBoxes">
+                    <p class="favsCity">Sacramento, Ca</p>
+                    <div class="row">
+                        <div class="col-1"></div>
+                        <div class="col-2">
+                            <p class="favTemps">56°</p>
+                        </div>
+                        <div class="col-2">
+                            <p class="favTempsMin">48°</p>
+                        </div>
+                            <img src="./Assets/OpenWeather Partly Cloudy.png" alt="" class="favIcons">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row container">
+            <p class="forecastText">Five Day Weather Forecast</p>
+        </div>
+        <div class="row container forecastContent d-flex justify-content-space-evenly">
+            <div class="forecastBoxes">
+                <p class="dayForecast">Monday</p>   
+                <img src="./Assets/OpenWeather Partly Cloudy.png" alt="" class="forecastIcon">
+            <p class="precForecastText">Precipitation 100%</p>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-2">
+                    <p class="forecastTemps">56°</p>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-2">
+                    <p class="forecastTempsMin">48°</p>
+                </div>
+            </div>
+            </div>
+            <div class="forecastBoxes">
+                <p class="dayForecast">Tuesday</p>   
+                <img src="./Assets/OpenWeather Partly Cloudy.png" alt="" class="forecastIcon">
+            <p class="precForecastText">Precipitation 100%</p>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-2">
+                    <p class="forecastTemps">56°</p>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-2">
+                    <p class="forecastTempsMin">48°</p>
+                </div>
+            </div>
+            </div>
+            <div class="forecastBoxes">
+                <p class="dayForecast">Wednsday</p>   
+                <img src="./Assets/OpenWeather Partly Cloudy.png" alt="" class="forecastIcon">
+            <p class="precForecastText">Precipitation 100%</p>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-2">
+                    <p class="forecastTemps">56°</p>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-2">
+                    <p class="forecastTempsMin">48°</p>
+                </div>
+            </div>
+            </div>
+            <div class="forecastBoxes">
+                <p class="dayForecast">Thursday</p>   
+                <img src="./Assets/OpenWeather Partly Cloudy.png" alt="" class="forecastIcon">
+            <p class="precForecastText">Precipitation 100%</p>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-2">
+                    <p class="forecastTemps">56°</p>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-2">
+                    <p class="forecastTempsMin">48°</p>
+                </div>
+            </div>
+            </div>
+            <div class="forecastBoxes">
+                <p class="dayForecast">Friday</p>   
+                <img src="./Assets/OpenWeather Partly Cloudy.png" alt="" class="forecastIcon">
+            <p class="precForecastText">Precipitation 100%</p>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-2">
+                    <p class="forecastTemps">56°</p>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-2">
+                    <p class="forecastTempsMin">48°</p>
+                </div>
+            </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="./Scripts/app.js"></script>
+</body>
+
+</html>

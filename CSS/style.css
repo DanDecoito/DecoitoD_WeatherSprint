@@ -1,0 +1,222 @@
+body {
+    background-color: #C8D9BC;
+    color: black;
+}
+.topDiv{
+    margin-top: 75px;
+}
+.mainContent {
+    background-color: #E6EBE0;
+    width: 833px;
+    height: 490px;
+    margin-left: 45px;
+}
+
+.favContent {
+    background-color: #E6EBE0;
+    position: relative;
+    width: 327px;
+    height: 490px;
+    left: 49px;
+}
+.mainContentCanvas{
+    background-color: #D9D9D9;
+    position: relative;
+    left: 33px;
+    top: 38px;
+    width: 745px;
+    height: 423px;
+}
+.searchArea {
+height: 132px;
+
+}
+.searchField {
+    background-color: #D9D9D9;
+    height: 36px;
+    width: 202px;
+    margin-top: 27px;
+    margin-left: 15px;
+    
+    }
+.favBoxes{
+    background-color: #D9D9D9;
+    margin-top: 20px;
+    margin-left: 16px;
+    height: 90px;
+    width: 272px;
+}
+.searchButton{
+    padding: 0;
+    border: none;
+    background: none;
+    margin-top: 26px;
+    margin-left: 20px;
+}
+.favWord {
+    position: relative;
+    top: 67px;
+    left: 17px;
+    font-size: 16px;
+}
+.forecastText {
+    font-size: 32px;
+    margin-top: 60px;
+    margin-left: 33px;
+    line-height: 10px;
+}
+
+.forecastContent {
+    background-color: #E6EBE0;
+    width: 1210px;
+    height: 272px;
+    margin-bottom: 75px;
+    margin-left: 45px;
+}
+.forecastBoxes {
+    background-color: #D9D9D9;
+    height: 210px;
+    width: 201px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+/*  General Positioning done */
+
+.dateText {
+    font-family:serif;
+    font-size: 22px;
+    line-height: 10px;
+    margin-top: 50px;
+}
+.mainIcon {
+    position: relative;
+    height: 152px;
+    width: 149px;
+    left: 30px;
+}
+.locationText {
+    font-family: serif;
+    font-size: 38px;
+    line-height: 10px;
+}
+.precipText {
+    font-family:serif;
+    font-size: 18px;
+    line-height: 10px;
+    margin-top: 58px;
+}
+.humiText {
+    font-family:serif;
+    font-size: 18px;
+    line-height: 10px;
+    margin-top: 0px;
+}
+.tempNum {
+    font-size: 56px;
+    line-height: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.infoText{
+    font-family: serif;
+    margin-top: 0px;
+    line-height: 3px;
+    font-size: 18px;
+}
+.infoTextR{
+    font-family: serif;
+    margin-top: 0px;
+    line-height: 3px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.rowOne {
+    height: 130px;
+}
+.lineSection {
+    margin-left: 40px;
+    margin-top: 25px;
+    
+}
+.hoursIcon {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    left: 17px;
+}
+.hourText {
+    font-family: serif;
+    margin-top: 15px;
+    line-height: 0px;
+    text-align: center;
+}
+.precHourText {
+    font-size: 24px;
+    position: relative;
+    left: 27px;
+}
+
+.hourRowMargin {
+    margin-left: 50px;
+}
+.hourRowMargin {
+    position: relative;
+    left: 25px;
+    line-height: 10px;
+}
+.favsCity {
+    font-family: serif;
+    margin-left: 10px;
+    margin-top: 20px;
+    line-height: 0px;
+    font-size: 20px;
+}
+.favTemps {
+    position: relative;
+    font-size: 24px;
+    left: 24px;
+}
+.favTempsMin {
+    color: rgb(139, 134, 134);
+    position: relative;
+    font-size: 24px;
+    left: 24px;
+}
+.favIcons {
+    position: relative;
+    height: 90px;
+    width: 90px;
+    bottom: 35px;
+    left: 55px;
+}
+.dayForecast {
+    font-family: serif;
+    font-size: 24px;
+    line-height: 10px;
+    text-align: center;
+    margin-top: 25px;
+}
+.forecastIcon {
+    position: relative;
+    left: 35px;
+    bottom: 10px;
+}
+.precForecastText {
+    font-family: serif;
+    text-align: center;
+    line-height: 0px;
+}
+.forecastTemps {
+    position: relative;
+    line-height: 20px;
+    font-size: 24px;
+    left: 24px;
+}
+.forecastTempsMin {
+    color: rgb(139, 134, 134);
+    position: relative;
+    line-height: 20px;
+    font-size: 24px;
+    left: 14px;
+}
